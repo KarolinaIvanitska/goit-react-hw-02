@@ -11,7 +11,11 @@ function App() {
     if (data) {
       return data;
     } else {
-      return 0;
+      return {
+        good: 0,
+        neutral: 0,
+        bad: 0,
+      };
     }
   });
 

@@ -3,7 +3,7 @@ const Options = ({ updateFeedback, totalFeedback, resetFeedback }) => {
     <div className="container-options">
       <button onClick={() => updateFeedback("good")}>Good </button>
       <button onClick={() => updateFeedback("neutral")}>Neutral </button>
-      <button onClick={() => updateFeedback("bad")}>Bad Opinion</button>
+      <button onClick={() => updateFeedback("bad")}>Bad </button>
       {totalFeedback > 0 && <button onClick={resetFeedback}>Reset</button>}
     </div>
   );
